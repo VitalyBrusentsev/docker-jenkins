@@ -1,5 +1,5 @@
-FROM ubuntu:13.10
-MAINTAINER Zaiste <oh [at] zaiste.net>
+FROM ubuntu:14.04
+MAINTAINER birkan <oh [at] portos.com.tr>
 
 RUN apt-get update \
   && apt-get -q -y install wget git openjdk-7-jre-headless \
