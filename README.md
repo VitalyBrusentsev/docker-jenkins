@@ -5,6 +5,7 @@ Jenkins in a Docker container; based on Ubuntu 14.04. It comes with the
 following plugins:
 
  * hipchat.hpi
+ * msbuild.hpi
  * greenballs.hpi
  * credentials.hpi
  * ssh-credentials.hpi
@@ -21,17 +22,17 @@ following plugins:
 Usage
 -----
 
-    docker run -d -t birkand/jenkins
+    docker run -d -t vitalybrusentsev/docker-jenkins
 
 Building
 --------
 
 Grab Dockerfile from this repository on Github
 
-    docker build github.com/birkand/docker-jenkins
+    docker build github.com/vitalybrusentsev/docker-jenkins
 
 Get a Docker image from Docker index
 
-    docker pull birkand/jenkins
+    docker pull vitalybrusentsev/jenkins
 
 
