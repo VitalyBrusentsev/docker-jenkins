@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER birkan <oh [at] portos.com.tr>
+MAINTAINER VitalyBrusentsev <retalik [at] gmail.com>
 
 RUN apt-get update \
   && apt-get -q -y install wget git openjdk-7-jre-headless \
